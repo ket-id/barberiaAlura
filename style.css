@@ -1,5 +1,5 @@
 body{
-    background: #cccccc;
+    /* background: #cccccc; */
 }
 
 h1{
@@ -17,11 +17,20 @@ p{
 em strong{
     color: red;
 }
+h2{
+    text-align: center;
+}
 #mision{
     font-size : 20px;
 }
 #banner{
     width: 100%;
+}
+.principal{
+    background: #cccccc;
+}
+.diferenciales{
+    background-color: #ffffff;
 }
 .items{
     font-style: italic;

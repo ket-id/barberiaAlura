@@ -20,6 +20,14 @@ em strong{
 h2{
     text-align: center;
 }
+ul{
+    display: inline-block;
+    /* el tamaño del cuadro se pone acorde a la lista */
+    vertical-align: top;
+    /* alinea la lista a el top de la imagen */
+    width: 20%;
+    margin-right: 15%;
+}
 #mision{
     font-size : 20px;
 }
@@ -28,10 +36,15 @@ h2{
 }
 .principal{
     background: #cccccc;
+    padding: 20px;
 }
 .diferenciales{
     background-color: #ffffff;
+    padding: 30px;
 }
 .items{
     font-style: italic;
+}
+.imagenDiferenciales{
+    width: 50%;
 }

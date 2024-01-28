@@ -1,0 +1,48 @@
+
+
+h1{
+    text-align: center;
+    height: 40px;
+    border: 10px solid #000000;
+    padding: 20px;
+    margin: 40px;
+}
+p{
+    text-align: center;
+    
+}
+
+em strong{
+    color: red;
+}
+.tituloCentrado{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    /* el tamaño del cuadro se pone acorde a la lista */
+    vertical-align: top;
+    /* alinea la lista a el top de la imagen */
+    width: 20%;
+    margin-right: 15%;
+}
+#mision{
+    font-size : 20px;
+}
+#banner{
+    width: 100%;
+}
+.principal{
+    background: #cccccc;
+    padding: 20px;
+}
+.diferenciales{
+    background-color: #ffffff;
+    padding: 30px;
+}
+.items{
+    font-style: italic;
+}
+.imagenDiferenciales{
+    width: 50%;
+}

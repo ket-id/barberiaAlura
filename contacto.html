@@ -28,31 +28,33 @@
 <main>
     <form>
         <label for="nombreapellido">Nombre y Apellido.</label>
-        <input type="text" id="nombreapellido">
+        <input type="text" id="nombreapellido" class="inputPadron">
 
         <label for="correoelectronico">Correo Electronico.</label>
-        <input type="text" id="correoelectronico">
+        <input type="text" id="correoelectronico" class="inputPadron">
 
         <label for="telefono">Telefono.</label>
-        <input type="text" id="telefono">
+        <input type="text" id="telefono" class="inputPadron">
 
         <label for="mensaje">Mensaje</label>
-        <textarea name="" id="mensaje" cols="70" rows="10"></textarea>
+        <textarea name="" id="mensaje" cols="70" rows="10" class="inputPadron"></textarea>
 
         <div>
             <p>¿Como le gustaria que lo contactaramos?</p>
 
-            <label for="radio-email">Email</label>
-            <input type="radio" name="Contacto" value="email" id="radio-email">
+            <label for="radio-email"><input type="radio" name="Contacto" value="email" id="radio-email">Email</label>
 
-            <label for="radio-telefono">Telefono</label>
-            <input type="radio" name="Contacto" value="telefono" id="radio-telefono">
 
-            <label for="radio-whatsapp">Whatsapp</label>
-            <input type="radio" name="Contacto" value="whatsapp" id="radio-whatsapp">
+            <label for="radio-telefono"><input type="radio" name="Contacto" value="telefono"
+                    id="radio-telefono">Telefono</label>
+
+
+            <label for="radio-whatsapp"><input type="radio" name="Contacto" value="whatsapp"
+                    id="radio-whatsapp">Whatsapp</label>
+
         </div>
 
-        <label for=""><input type="checkbox">¿Le gustaria recibir novedades?</label>
+        <label class="checkbox"><input type="checkbox">¿Le gustaria recibir novedades?</label>
 
         <input type="submit" value="Enviar Formulario">
     </form>

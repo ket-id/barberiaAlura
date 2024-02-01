@@ -5,40 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barberia Alura</title>
-    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Barberia Alura</h1>
-        <img id="banner" src="img/banner.jpg" alt="Una habitacion con sillas de barberia">
+        <div class="caja">
+            <h1><img src="img/logo.png" alt="Barberia Alura."></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
 
     </header>
-    <main class="principal">
-        <h2 class="tituloCentrado">Sobre la Barbería Alura</h2>
 
-        <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de
-            mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista
-            nuevos clientes diariamente. </p>
+    <img id="banner" src="img/banner.jpg" alt="Una habitacion con sillas de barberia">
 
-        <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros
-                    clientes".</strong></em></p>
+    <main>
 
-        <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el
-            mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un
-            padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes. </p>
+        <section class="principal">
+            <h2 class="tituloCentrado">Sobre la Barbería Alura</h2>
+
+            <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de
+                mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y
+                conquista
+                nuevos clientes diariamente. </p>
+
+            <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros
+                        clientes".</strong></em></p>
+
+            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el
+                mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un
+                padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes. </p>
+        </section>
+        <section class="diferenciales">
+            <h3 class="tituloCentrado">Diferenciales</h3>
+            <ul>
+                <li class="items">Atencion personalizada a los clientes.</li>
+                <li class="items">Espacio diferenciado.</li>
+                <li class="items">Localizacion.</li>
+                <li class="items">Profecionales calificados.</li>
+            </ul>
+            <img class="imagenDiferenciales" src="img/diferenciales.jpg"
+                alt="Hombre recibiendo un corte de barba a tijera.">
+        </section>
     </main>
-    <section class="diferenciales">
-        <h3 class="tituloCentrado">Diferenciales</h3>
-        <ul>
-            <li class="items">Atencion personalizada a los clientes.</li>
-            <li class="items">Espacio diferenciado.</li>
-            <li class="items">Localizacion.</li>
-            <li class="items">Profecionales calificados.</li>
-        </ul>
-        <img class="imagenDiferenciales" src="img/diferenciales.jpg"
-            alt="Hombre recibiendo un corte de barba a tijera.">
-    </section>
+    <footer>
+        <img src="img/logo-blanco.png" alt="Logo de la barberia.">
+        <p class="desarrollo">&copy; Desarrollado por Giacobini Maximiliano, Grupo 6. ONE Oracle - Alura Latam 2024</p>
+    </footer>
 
 </body>
 

@@ -103,11 +103,6 @@ footer {
     margin: 20px;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-
-}
 
 form {
     margin: 40px 0;
@@ -173,6 +168,13 @@ th {
     width: 100%;
 }
 
+.principal{
+    padding: 3em 0;
+    background-color: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .tituloPrincipal {
     text-align: center;
     font-size: 2em;
@@ -200,11 +202,22 @@ th {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888)
 }
 
 .mapa p {
     margin: 0 0 2em;
     text-align: center;
+}
+
+.mapaContenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
 }
 
 .imagenDiferenciales {

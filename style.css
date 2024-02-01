@@ -146,38 +146,54 @@ form legend {
     transform: scale(1.2);
 
 }
-table{
+
+table {
     margin: 40px 40px;
 }
-thead{
+
+thead {
     background-color: #555555;
     color: white;
     font-weight: bold;
 }
-td, th{
+
+td,
+th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
 
 /* CSS para nuestra home */
 
-.banner{
+.banner {
     width: 100%;
 }
-.tituloPrincipal{
+
+.tituloPrincipal {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    clear: left;
 }
-.principal p{
+
+.principal p {
     margin: 0 0 1em;
 }
-.principal strong{
+
+.principal strong {
     font-weight: bold;
 }
-.principal em{
+
+.principal em {
     font-style: italic;
 }
-.imagenDiferenciales{
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagenDiferenciales {
     width: 60%;
 }
